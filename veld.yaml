@@ -12,3 +12,4 @@ services:
       - ./veld_data_ex1_json/data.json:/veld/output/data.json
     environment:
       id: "48"
+
