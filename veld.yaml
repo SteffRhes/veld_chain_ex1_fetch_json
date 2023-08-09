@@ -9,6 +9,6 @@ services:
       file: ./veld_executable_ex1_fetch_json/veld.yaml
       service: veld
     volumes:
-      - ./veld_data_ex1_json/data.json:/veld/output/a/data.json
-      - ./log.txt:/veld/output/b/log.txt
-
+      - ./veld_data_ex1_json/data.json:/veld/output/data.json
+    environment:
+      id: "48"
